@@ -17,3 +17,6 @@ hardstatus off
 caption always           "%?%F%{= Kk}%{+b}%:%{=u kR}%?  %h %-024=%{+b} %C%a%D %d %M %Y%{= db}"
 ##hardstatus alwayslastline "%{= kR} %-Lw%{=b Kk} %n%f %t %{-}%+Lw %=%{= dd}"
 hardstatus alwayslastline "%{= kR} %-Lw%{=b KG} %n%f %t %{-}%+Lw %=%{= dd}"
+
+# Copy paste in screen: http://web.mit.edu/gnu/doc/html/screen_11.html
+
