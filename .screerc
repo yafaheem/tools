@@ -1,0 +1,19 @@
+escape ^Aa
+defscrollback 10000
+#bindkey "^B" command -c extend
+bind - command -c extend
+bind -c extend 0 select 10
+bind -c extend 1 select 11
+bind -c extend 2 select 12
+bind -c extend 3 select 13
+bind -c extend 4 select 14
+bind -c extend 5 select 15
+termcapinfo xterm 'hs:ts=\E]2;:fs=\007:ds=\E]2;screen\007'
+#hardstatus alwayslastline
+#hardstatus string '%{= bK}%-Lw%{= KW}%50>%n%f* %t%{= bK}%+Lw%< %{= kG}%-=%D %d %M %Y %c:%s%{-}'
+hardstatus off
+#caption always           "%?%F%{= Kk}%:%{=u kR}%?  %h %-024=%{+b} %C%a%D %d %M %Y%{= db}"
+##caption always           "%?%F%{= Kk}%{+b}%:%{=u kR}%?  %h %-024=%{+b} %C%a%D %d %M %Y%{= db}"
+caption always           "%?%F%{= Kk}%{+b}%:%{=u kR}%?  %h %-024=%{+b} %C%a%D %d %M %Y%{= db}"
+##hardstatus alwayslastline "%{= kR} %-Lw%{=b Kk} %n%f %t %{-}%+Lw %=%{= dd}"
+hardstatus alwayslastline "%{= kR} %-Lw%{=b KG} %n%f %t %{-}%+Lw %=%{= dd}"
